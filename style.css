@@ -1,0 +1,54 @@
+#header {
+    background-color:rgb(226, 200, 165) ;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-family: 'Hubballi', cursive;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase; /* Esta propriedade transforma o texto para ficar todo em maiúsculo */
+}
+
+#nameAndTitle {
+    background-color: white;
+    width: 35%;
+    margin: auto;
+    text-align: center;
+}
+
+#nameAndTitle h1, h2 {
+    margin: 0;
+}
+
+#contact {
+    list-style-type: none; /* Define o estilo dos marcadores das listas, dessa forma que colocamos não irá aparecer nenhum marcador. */
+}
+
+#contact i {
+    width: 30px;
+    color: rgb(226, 200, 165);
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 30% auto; /* Aqui eu estou criando os "comodos do meu site", o 1° com 30% do total da página e o 2° será "auto", completando o que falta para os 100%. */
+    grid-column-gap: 30px;
+}
+
+#sidebar, #content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.card h3 {
+    font-family: 'Hubballi', cursive;
+}
+
+.card {
+    font-family: Montserrat;
+    border: 1px solid rgb(204, 201, 201);
+    border-radius: 15px;
+    padding: 20px;
+   
+}
